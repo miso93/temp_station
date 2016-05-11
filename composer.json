@@ -1,0 +1,23 @@
+{
+  "name": "mato/mato",
+  "description": "mato",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Michal",
+      "email": "cech.michal@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "MyApp": "src"
+    },
+    "classmap": ["src/"]
+  },
+  "require": {
+    "twbs/bootstrap": "^3.3",
+    "dibi/dibi": "^3.0",
+    "nesbot/carbon": "1.21.0"
+  }
+}
